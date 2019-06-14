@@ -1,6 +1,7 @@
 import cv2 as cv
 import tkinter,tkinter.filedialog,tkinter.messagebox,os
 from matplotlib import pyplot as plt
+from PIL import Image
 
 class Application(tkinter.Frame):
 

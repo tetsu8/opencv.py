@@ -17,7 +17,7 @@ def showImg(img):
     cv.imshow('show image', img)
     cv.waitKey(0)
 
-def EdfComplexWavelet(images):
+def EdfComplexWavelet(images: ndarray):
     nx,ny = images[0].shape
     nz = len(images)
     text = 'read image size height={}, width={}, z={}'
@@ -29,6 +29,15 @@ def EdfComplexWavelet(images):
     scale = 1
 
     buf = [][]
+
+    if sbConsistencyCheck or majConsistencyCheck :
+
+
+    for z in nz:
+        img = images[z]
+
+        for i in nx:
+            for j in ny
 
 
 if __name__ == "__main__":
